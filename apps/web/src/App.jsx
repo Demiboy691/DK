@@ -175,8 +175,7 @@ const formatNaira = (value) =>
 function Logo({ onClick }) {
   return (
     <button type="button" className="ph-logo" onClick={onClick} aria-label={`${brand} home`}>
-      <span>PrintHub</span>
-      <strong>Lagos</strong>
+      <img src="/logo.svg" alt="" className="ph-logo-mark" />
     </button>
   );
 }
